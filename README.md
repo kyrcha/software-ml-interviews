@@ -1,4 +1,6 @@
-Raneto [![](https://travis-ci.org/gilbitron/Raneto.svg?branch=master)](https://travis-ci.org/gilbitron/Raneto)
+The knowledge base can be found [here](https://software-ml-interviews.herokuapp.com/)
+
+<!-- Raneto [![](https://travis-ci.org/gilbitron/Raneto.svg?branch=master)](https://travis-ci.org/gilbitron/Raneto)
 ======
 
 [![Raneto Logo](https://raw.githubusercontent.com/gilbitron/Raneto/master/logo/logo_readme.png)](http://raneto.com/)
@@ -42,4 +44,4 @@ Credits
 Raneto was created by [Gilbert Pellegrom](https://gilbitron.me) from [Dev7studios](http://dev7studios.co).  
 Maintained by [Ryan Lelek](http://www.ryanlelek.com) from [AnsibleTutorials.com](http://www.ansibletutorials.com).  
 Logo by [@mmamrila](https://github.com/mmamrila)  
-Released under the [MIT license](https://raw.githubusercontent.com/gilbitron/Raneto/master/LICENSE).
+Released under the [MIT license](https://raw.githubusercontent.com/gilbitron/Raneto/master/LICENSE). -->
