@@ -3,7 +3,7 @@ Title: References
 Description: References I used to make the knowledge base
 */
 
-Links to the resources used in order to gather the questions presented here.
+This page contain links to the resources used in order to gather the questions presented in this knowledge base.
 
 ## JavaScript
 
