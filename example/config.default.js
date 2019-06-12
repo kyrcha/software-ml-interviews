@@ -77,12 +77,8 @@ var config = {
 
   credentials    : [
     {
-      username : 'admin',
-      password : 'password'
-    },
-    {
-      username : 'admin2',
-      password : 'password'
+      username : '' + process.env.USERNAME,
+      password : '' + process.env.PASSWORD
     }
   ],
 
