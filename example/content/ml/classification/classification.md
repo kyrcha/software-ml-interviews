@@ -1,5 +1,7 @@
-# What is classification?
+## Boundaries: Provide the decision boundaries of different algorithms
 
-Classification is
+- Naive Bayes
+- Logistic Regression
+- Decision Trees
 
-Reference: [In](http://in.gr)
+## How can I act if I have different kinds of high/low bias/variance scenarios
