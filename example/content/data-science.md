@@ -58,7 +58,7 @@ Lasso, minimize absolute value
 Ridge, minimize square value
 
 **Dropout**
-Set randomly outputs to 0
+Set randomly outputs to 0 (disables them). This prevent neurons from co-adapting and forces them to learn individually useful features. 
 
 **Early Stopping**
 
@@ -114,13 +114,17 @@ A convolution is the process of applying a filter (“kernel”) to an image. Ma
 - Convolution: The process of applying a kernel (filter) to an image
 - Kernel / filter: A matrix which is smaller than the input, used to transform the input into chunks
 - Padding: Adding pixels of some value, usually 0, around the input image
-- Pooling The process of reducing the size of an image through downsampling.There are several types of pooling layers. For example, average pooling converts many values into a single value by taking the average. However, maxpooling is the most common.
-- Maxpooling: A pooling process in which many values are converted into a single value by taking the maximum value from among them. Downnsampling.
+- Pooling The process of reducing the size of an image through downsampling. There are several types of pooling layers. For example, average pooling converts many values into a single value by taking the average. However, maxpooling is the most common. Usefull for decreasing computational power required and ectracting dominant features which are rotational and positional invariant.
+- Maxpooling: A pooling process in which many values are converted into a single value by taking the maximum value from among them. Performs as a noise suppressant as well.
 - Stride: the number of pixels to slide the kernel (filter) across the image.
 - Downsampling: The act of reducing the size of an image
 
 **Why use CNNs?**
-To build invariance in your model. When recognizing an object in one place, CNNs will recognize it to others as well.
+To build invariance in your model. When recognizing an object in one place, CNNs will recognize it to others as well. A CNN succesfully captures Spatial and Temporal dependencies in an image.
+
+**Links**
+
+- [A Comprehensive Guide to Convolutional Neural Networks — the ELI5 way](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53)
 
 ## Links
 
