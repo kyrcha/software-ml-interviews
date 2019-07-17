@@ -1,7 +1,28 @@
 /*
-Title: Functions
-Description: Questions about functions in JS
+Title: JavaScript
+Description: General questions for JavaScript
 */
+
+**Bind, Apply and Call**
+
+**Callbacks and Promises**
+
+**Error Handling**
+
+**Map, Reduce, Filter**
+
+**Objects**
+
+**Prototypical Inheritance**
+
+**Regular Expressions**
+You can train for Regular Expressions in HackerRank. There is a special section.
+
+**Scope and Closures**
+
+**this**
+
+## Functions
 
 Function in JS are first class citizens and you should know them well (assigned to a variable, passed as an argument, returned from another, etc.).
 
@@ -43,6 +64,6 @@ var simpleLibrary = function() {
 
 If more than one parameter has the same name in a function definition, the last occurrence “shadows” the preceding occurrences. [Ref](https://eslint.org/docs/rules/no-dupe-args)
 
-## Function references
+### Function references
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions

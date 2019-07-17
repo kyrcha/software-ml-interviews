@@ -1,4 +1,0 @@
-/*
-Title: Python Questions
-Description:
-*/

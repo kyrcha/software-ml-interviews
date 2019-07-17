@@ -7,7 +7,7 @@ var path = require('path');
 var config = {
 
   // Your site title (format: page_title - site_title)
-  site_title: 'Raneto Docs',
+  site_title: 'Software Engineering & Machine Learning Interview Questions',
 
   // The base URL of your site (can use %base_url% in Markdown files)
   base_url: '',
@@ -51,7 +51,16 @@ var config = {
   image_url: '/images',
 
   // Add your analytics tracking code (including script tags)
-  analytics: '',
+  analytics: `<!-- Global site tag (gtag.js) - Google Analytics -->
+              <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2782275-14"></script>
+              <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'UA-2782275-14');
+              </script>
+`,
 
   // Set to true to enable the web editor
   allow_editing : true,

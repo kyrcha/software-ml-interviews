@@ -1,4 +1,0 @@
-/*
-Title: Prototypical Inheritance
-Description: 
-*/

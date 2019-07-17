@@ -1,4 +1,0 @@
-/*
-Title: Regular Expressions
-Description: 
-*/

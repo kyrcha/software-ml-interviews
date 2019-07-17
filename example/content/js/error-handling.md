@@ -1,4 +1,0 @@
-/*
-Title: Error Handling
-Description: 
-*/
