@@ -26,15 +26,19 @@ TODO.
 - Decision Trees
 
 **What is a ROC curve?**
+
 GUI representation of TPR vs. FPR
 
 **What is a Type I error?**
+
 False Positive Rate
 
 **What is a Type II error?**
+
 False Negative Rate
 
 **Bayes Theorem**
+
 Posterior probability of an event given what is know as prior knowledge.
 
 `P(A|B) = P(B|A) * P(A) / P(B)`
@@ -44,20 +48,25 @@ i.e.
 `P(Spam|Words) = P(Words|Spam) * P(Spam) / P(Words)`
 
 **Bagging**
+
 Different models built on different subsets of data
 
 **Boosting**
+
 Different weights to each sample
 
 ## Regularization techniques
 
 **L1**
+
 Lasso, minimize absolute value
 
 **L2**
+
 Ridge, minimize square value
 
 **Dropout**
+
 Set randomly outputs to 0 (disables them). This prevent neurons from co-adapting and forces them to learn individually useful features. 
 
 **Early Stopping**
@@ -87,7 +96,7 @@ Cons:
  - Slow for real-time prediction due to the large number of trees.
  - When there are categorical values with different number of levels, RF prefer the variables with more levels.
  
- ## Boosting Machines
+## Boosting Machines
 
 **Describe how XGBoost works, pros and cons**
 
@@ -105,6 +114,17 @@ cons:
 - Long(er) training times due to the sequential nature
 - Harder to tune
 - More of a black-box even though tree-based
+
+
+## LSTM
+
+Tutorials:
+- [Understanding LSTM](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+
+- Cell state: the cell state runs through the LSTM with minor interations
+- Forget gate layer: Decides what information will be thrown away from the cell state through a sigmoid layer (1 keep this, 0 get rid of this)
+- Input gate layer: Decides what new information will go into the cell state
+- Output gate layer: Decides what cell state information will be outputed
 
 ## Convolutional Neural Networks
 
