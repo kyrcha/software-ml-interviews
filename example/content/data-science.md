@@ -3,6 +3,27 @@ Title: Data Science
 Description: Questions on Data Science, Machine Learning, Deep Learning etc.
 */
 
+**What is hypothesis testing?**
+
+Tests the validity of a claim (null hypothesis) that is made about a population using sample data. If the claim is not valid, then we accept
+the alternative hypothesis as true.
+
+[Article](https://towardsdatascience.com/p-values-explained-by-data-scientist-f40a746cfc8)
+
+**What is a Z-score?**
+
+Z-score is the number of standard deviations from the mean a data point is.
+
+**What is a p-value?**
+
+P-value is the probability that given a null hypothesis is true, it would be high enough so that we are not surprised by the evidence. If it is lower than a predefined significance layer (alpha) then we reject the null hypothesis and accept the alternative one.
+
+[Article](https://towardsdatascience.com/p-values-explained-by-data-scientist-f40a746cfc8)
+
+**What is the difference between one or two tailed tests?**
+
+[Article](https://stats.idre.ucla.edu/other/mult-pkg/faq/general/faq-what-are-the-differences-between-one-tailed-and-two-tailed-tests/)
+
 **What is precision?**
 
 Used mostly in information retrieval (or binary classification), precision is a metric that defines how precise I am in my retrievals (or predictions). Meaning from the things I say they are class A (i.e. True), how many are they trully A? How precise am I in predicting A? More mathematically it is TP/(TP + FP).
@@ -71,12 +92,66 @@ Set randomly outputs to 0 (disables them). This prevent neurons from co-adapting
 
 **Early Stopping**
 
+**How do you select hyperparameters?**
+
+1. Manual Search
+2. Grid Search
+3. Random Search
+4. Bayesian Optimization
+
+Check this as well: [Guideline to select the hyperparameters in Deep Learning](https://stats.stackexchange.com/q/95495/57185)
+
+**What is batch normalization?**
+
+It is the normalisation the inputs of each layer in such a way that they have a mean output activation of zero and standard deviation of one.
+
+The idea is to do the same in the hidden layers as you do in the input layer.
+
+Batch normalization:
+
+- Makes the network learn faster (converge more quickly, higher learning rates)
+- Helps with weight problems (weight initialization, saturated activation functions, some regularization capabilities)
+
+**What is Entropy?**
+
+An indicator of how messy the data is
+
+**What is the curse of dimensionality?**
+
+Large space where the data reside which leads to sparse data that lead to random relations.
+
+You can eliminate it by:
+
+- Feature selection
+- L1 regularization
+- PCA, other dimensionality reduction techniques
+- Better feature engineering
+
+**Why ensembles are better?**
+
+They make different errors.
+
 ## Bias-Variance trade-off
 
-- Bias: Error due to erroneous or overly simplistic assumptions, underfitting.
-- Variance: Too much complexity, sensitive to high degrees of variation, overfitting.
+- Bias: Error due to erroneous or overly simplistic assumptions, underfitting. The error rate on the training set.
+- Variance: Too much complexity, sensitive to high degrees of variation, overfitting. The error rate between the training and the validation set.
 
 **How can I act if I have different kinds of high/low bias/variance scenarios**
+
+High Bias:
+- Increase model size (usually with regularization to mitigate high variance)
+- Add more helpful features (which is another way of increasing again model size)
+- Remove (Worse) / reduce (Better) regulaization
+- Adding more training data wont help...the model is too "small"
+
+High variance:
+- Add training data (usually with a big model to handle them)
+- Add/increase regularization
+- Early stopping for NN
+- Remove features (make the model simpler)
+- Decrease model size (prefer regularization)
+- Add more helpful features that are more useful to the problem at hand instead of the ones you have
+
 
 ## Random Forests
 
