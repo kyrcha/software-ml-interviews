@@ -106,3 +106,11 @@ You can eliminate it by:
 **Why ensembles are better?**
 
 They make different errors.
+
+**What is KL-divergence?**
+
+**What is error uncertainty?**
+
+**What is model uncertainty?**
+
+
