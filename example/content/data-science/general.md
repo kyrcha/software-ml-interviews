@@ -3,6 +3,10 @@ Title: General questions
 Description: Questions on Data Science
 */
 
+**Case study:**
+
+A standard interview question is the one where along with the interviewer you go through building a machine learning pipeline with questions relating to pre-processing, handling of big data, model choice, performance, feature engineering etc.
+
 **Model choice:**
 
 My current model has a performance of 3.5% error rate and a new one has a performance of 3% error rate. Should I switch in production to the newer one?
