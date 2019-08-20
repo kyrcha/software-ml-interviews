@@ -3,6 +3,12 @@ Title: General questions
 Description: Questions on Data Science
 */
 
+**Model choice:**
+
+My current model has a performance of 3.5% error rate and a new one has a performance of 3% error rate. Should I switch in production to the newer one?
+
+Answer: Do statistical testing.
+
 **What is hypothesis testing?**
 
 Tests the validity of a claim (null hypothesis) that is made about a population using sample data. If the claim is not valid, then we accept
