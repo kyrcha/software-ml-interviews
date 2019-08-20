@@ -12,6 +12,12 @@ Description: Different machine learning models
 
 **What happens if I choose randomly the split?**
 
+## Support Vector Machines
+
+**Which kernel to choose?**
+
+**What data do I need for each kernel?**
+
 ## Random Forests
 
 **Describe how random forest works, pros and cons, and where have you used them lately?**
