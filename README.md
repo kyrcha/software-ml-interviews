@@ -1,4 +1,4 @@
-The knowledge base can be found [here](https://software-ml-interviews.herokuapp.com/)
+The knowledge base can be found on [https://software-ml-interviews.herokuapp.com/](https://software-ml-interviews.herokuapp.com/)
 
 <!-- Raneto [![](https://travis-ci.org/gilbitron/Raneto.svg?branch=master)](https://travis-ci.org/gilbitron/Raneto)
 ======
